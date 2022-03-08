@@ -25,7 +25,7 @@ public class Receipt {
         String url = "https://aip.baidubce.com/rest/2.0/ocr/v1/receipt";
         try {
             // 本地文件路径
-            String filePath = "D:\\文档\\IMG_2439.JPG";
+            String filePath = "D:\\文档\\IMG_2439.JPG"; //mac格式不一样
             byte[] imgData = FileUtil.readFileByBytes(filePath);
             String imgStr = Base64Util.encode(imgData);
             String imgParam = URLEncoder.encode(imgStr, "UTF-8");
