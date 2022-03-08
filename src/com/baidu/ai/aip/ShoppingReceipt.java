@@ -1,4 +1,3 @@
-
 package com.baidu.ai.aip;
 
 import com.baidu.ai.aip.utils.Base64Util;

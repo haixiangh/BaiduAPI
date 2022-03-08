@@ -1,4 +1,3 @@
-
 package com.baidu.ai.aip;
 
 import com.baidu.ai.aip.utils.Base64Util;
@@ -35,7 +34,7 @@ public class GeneralBasic {
 
             // 注意这里仅为了简化编码每一次请求都去获取access_token，线上环境access_token有过期时间， 客户端可自行缓存，过期后重新获取。
             String accessToken = "24.b5996ab290739c02fed5a58228b1ffe7.2592000.1649311011.282335-25724945";
-
+            //token记住
             String result = HttpUtil.post(url, accessToken, param);
             System.out.println(result);
             return result;
