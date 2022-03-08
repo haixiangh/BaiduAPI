@@ -31,7 +31,7 @@ public class Receipt {
             String imgParam = URLEncoder.encode(imgStr, "UTF-8");
 
             String param = "image=" + imgParam;
-
+            // token可以一直用
             // 注意这里仅为了简化编码每一次请求都去获取access_token，线上环境access_token有过期时间， 客户端可自行缓存，过期后重新获取。
             String accessToken = "24.b5996ab290739c02fed5a58228b1ffe7.2592000.1649311011.282335-25724945";
 

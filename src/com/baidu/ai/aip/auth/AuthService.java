@@ -14,7 +14,7 @@ import java.util.Map;
  */
 public class AuthService {
     public static void main(String[] args) {
-        getAuth();
+        getAuth(); //最后不必调用主方法
     }    //百度技术文档里面是没有主方法的，这里需要自己创建，然后调用getAuth()
 
     /**
